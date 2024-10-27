@@ -35,10 +35,12 @@ body{
     align-items: center;
 }   
 
-.header #logo{
+.header #logo a{
     color: #9DB065;
     font-size: 48px;
     font-weight: 700;
+
+    text-decoration: none;
 }
 
 .header #login{
@@ -48,6 +50,20 @@ body{
     border-radius: 15px;
 
     background-color: #9DB065;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header #login:hover{
+    width: 100px;
+    height: 50px;
+
+    border-radius: 15px;
+
+    background-color: #859949;
 
     display: flex;
     flex-direction: column;
@@ -95,5 +111,27 @@ body{
     color: #9DB065;
     font-size: 20px;
     font-weight: 600;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+
+}
+
+.footer a:hover{
+    width: 100px;
+    height: 50px;
+
+    border-radius: 15px;
+
+    background-color: #859949;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 

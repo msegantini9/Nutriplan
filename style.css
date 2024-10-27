@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main{
+    background-image: linear-gradient(to left, transparent 40%, rgba(0,0,0,0.7) 100%), url("https://sebrae.com.br/Sebrae/Portal%20Sebrae/Ideias%20de%20Negocio/Importer/Images/262_background.webp");
+    background-repeat:no-repeat;  
+    background-size: 100%;  
+
+    display: flex;
+    flex-grow: 4;
+
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+    align-items: center;
+}   
+
+.header #logo{
+    color: #9DB065;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.header #login{
+    width: 100px;
+    height: 50px;
+
+    border-radius: 15px;
+
+    background-color: #9DB065;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header #login a{
+    text-decoration: none;
+
+    color:#353E1E;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 50vw;
+    height: 100%;
+
+    padding: 100px;
+
+    color: #E9E8DF;
+    font-size: 90px;
+    font-weight: 900;
+}
+
+.footer{
+    height: 75px;
+    background-color: #353E1E;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #9DB065;
+    font-size: 20px;
+    font-weight: 600;
+}
+
